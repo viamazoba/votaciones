@@ -1,0 +1,24 @@
+fieldset{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fafaff;
+    border-radius: 10px;
+
+    .container-checksBox{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: start;
+        margin-top: 1rem;
+    }
+
+    .container-radioButtons{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin-top: 1rem;
+    }
+}
+
+input {
+margin: 0.4rem;
+} 
